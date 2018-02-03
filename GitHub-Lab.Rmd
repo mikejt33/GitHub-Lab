@@ -1,0 +1,21 @@
+---
+title: "GitHub Lab"
+author: "Mackenzie Gray, Adriana Souza"
+date: "February 8th, 2018"
+output:
+  html_notebook:
+    highlight: tango
+    mathjax: null
+    number_sections: yes
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+---
+
+# What is Git?
+
+# Why should I use it?
+
+# How can I integrate it into R-studio?
+
+# Resources
