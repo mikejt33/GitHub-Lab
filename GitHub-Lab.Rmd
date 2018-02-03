@@ -12,17 +12,23 @@ output:
     toc_float: yes
 ---  
 
+<br></br>
 
 ![](img/git-hub.png)  
 
-
+<br></br>
 
 # What is Git?
+
 
 Git is a __version control system__. Version control is a system that records changes to a file or set of files
 over time so that you can recall specific versions later. 
 
+<br></br>
+
 # Why should I use it?
+
+<br></br>
 
 1. __Version Control__
 
@@ -40,6 +46,7 @@ If you need to collaborate on data analysis or code development, then everyone s
 
 If someone needs to see your work or if you want them to try out your code, they can easily get it from GitHub. If they use Git, they can clone or fork your repository. If they don’t use Git, they can still browse your project on GitHub like a normal website and even grab everything by downloading a zip archive.
 
+<br></br>
 
 # How can I integrate it into R-studio?
 
@@ -50,11 +57,15 @@ What you need:
 2. Your account to GitHub.
 3. RStudio
 
+<br></br>
+
 ## Getting started
 
 ### Make a repository 
 
 On your GitHub account, create a new repository and give it a name. 
+
+<br></br>
 
 ![](img/create_a_repository.PNG)
 
@@ -68,6 +79,8 @@ On your GitHub account, create a new repository and give it a name.
 
 4. __License:__ You do not have to use one but, for future reference, the MIT License is a good way to go. The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable. Need help picking a license? Try [this page](https://choosealicense.com).
 
+<br></br>
+
 ### Make a project in RStudio
 
 1. In RStudio under `File`, click `New Project`. 
@@ -76,35 +89,72 @@ On your GitHub account, create a new repository and give it a name.
 
 3. Then click the `Git` option.
 
-4. A window will appear that asks you to clone the Git Repository. You can get the url from the big green button on your repository page on GitHub. Copy and paste that link there. This should populate the second field according to the repository's name but you can change it to what you'd like. You chan change where this is stored in the third field if you want.
+4. A window will appear that asks you to clone the Git Repository. You can get the url from the big green button that says `Clone or Download` somewhere on the right of your repository page on GitHub. Copy and paste that link in the first field. This should populate the second field according to the repository's name but you can change it to whatever you'd like. You can also change where this will be stored in the third field.
 
 ![](img/clone_git_repository.PNG)
 
 5. You can now create a file for whatever you want to do, or open an existing file you'd like to add, for example.
 
+<br></br>
+
 ### Make changes: Commit, Pull, Push
 
-When you created your project, a tab called `Git` was added to your `Environment` pane. In that tab, you can see the options `Diff`, `Commit`, `Pull`, `Push`, `History`, `More`, `New Branch` and, in my case, because I created the repository, `master`.
+When you created your project, a tab called `Git` was added to your `Environment` pane, usually found in the upper right corner of your RStudio window. 
+
+In the `Git` tab, you can see all the files in your project. The `.rmd` file you are editing, the `.proj` file for your project, and here we also see a `.PNG` file for the image that we added to the top of this notebook. These are all the files that will be in your remote repository, but how do we get them there?
+
+For that, take a look at the options `Diff`, `Commit`, `Pull`, `Push`, `History`, `More`, `New Branch` and, in this case, because we created the repository, `master`.
 
 ![](img/environment.PNG)
 
+#### New Brach and `master` {-}
+
+The [master branch](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is) should represent the 'stable' history of your code. When you want to experiment with new features, create a new branch and implement them. When they have matured enough you can merge them back to master. That way code in master will almost always build without problems.
+
+This is also a good way to work in teams, especially when each person is working on separate parts of the same file. Each person will create their own version of the file by "branching" off of the master version.  
+
+
+<br>
 
 #### Commit {-}
 
-`commit` records changes to the repository. 
+[`commit`](https://git-scm.com/docs/git-commit) records changes to the repository. You choose the files where you made changes and add a message describing those changes. You do not have to add a message, but you will thank yourself later. 
+
+![](img/commit.PNG)
+
+<br>
+
+#### Diff {-}
+
+[`diff`](https://git-scm.com/docs/git-diff) shows changes between commits, commit and working tree, or changes between two files on disk, etc. 
+
+
+<br>
 
 #### Pull {-}
 
-`pull`  is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+[`pull`](https://git-scm.com/docs/git-pull) is what you do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+
+<br>
 
 #### Push {-}
 
-`push`  transfers the last commit(s) to a remote server
+[`push`](https://git-scm.com/docs/git-push)  transfers the last commit(s) to a remote server. 
 
+<br>
+
+#### History {-}
+
+`History` opens a window with all of your actions. Every `commit`, `pull`, and `push` are recorded there. This is also where you will solve merging conflicts if you run into them, and we promise you will.
+
+
+<br></br>
 
 ### Make changes online
 
 You can also edit your file directly on GitHub. This is not the best way to make big changes, but for small ones it is fine.
+
+<br></br>
 
 # Resources
 
