@@ -43,16 +43,16 @@ If someone needs to see your work or if you want them to try out your code, they
 
 # How can I integrate it into R-studio?
 
-
-## What you need
+What you need:
 
 1. Having git installed on your machine. If you don't, check out [this guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 2. Your account to GitHub.
 3. RStudio
 
-
 ## Getting started
+
+### Make a repository 
 
 On your GitHub account, create a new repository and give it a name. 
 
@@ -68,12 +68,43 @@ On your GitHub account, create a new repository and give it a name.
 
 4. __License:__ You do not have to use one but, for future reference, the MIT License is a good way to go. The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable. Need help picking a license? Try [this page](https://choosealicense.com).
 
-### Commit
+### Make a project in RStudio
 
-### Pull
+1. In RStudio under `File`, click `New Project`. 
 
-### Push
+2. When prompted, choose the third option down called `Version Control`.
 
+3. Then click the `Git` option.
+
+4. A window will appear that asks you to clone the Git Repository. You can get the url from the big green button on your repository page on GitHub. Copy and paste that link there. This should populate the second field according to the repository's name but you can change it to what you'd like. You chan change where this is stored in the third field if you want.
+
+![](img/clone_git_repository.PNG)
+
+5. You can now create a file for whatever you want to do, or open an existing file you'd like to add, for example.
+
+### Make changes: Commit, Pull, Push
+
+When you created your project, a tab called `Git` was added to your `Environment` pane. In that tab, you can see the options `Diff`, `Commit`, `Pull`, `Push`, `History`, `More`, `New Branch` and, in my case, because I created the repository, `master`.
+
+![](img/environment.PNG)
+
+
+#### Commit {-}
+
+`commit` records changes to the repository. 
+
+#### Pull {-}
+
+`pull`  is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+
+#### Push {-}
+
+`push`  transfers the last commit(s) to a remote server
+
+
+### Make changes online
+
+You can also edit your file directly on GitHub. This is not the best way to make big changes, but for small ones it is fine.
 
 # Resources
 
@@ -83,6 +114,7 @@ On your GitHub account, create a new repository and give it a name.
 
 ## Books and Tutorials
 + [Try Git: 15 minute tutorial](https://try.github.io/levels/1/challenges/1)
++ [Git Ready](http://gitready.com)
 + [Happy Git with R](http://happygitwithr.com)
 + [Github with R](https://guides.github.com/activities/hello-world/)
 + [Pro Git](https://www.gitbook.com/book/gitbookio/progit/details)
