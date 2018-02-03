@@ -10,14 +10,79 @@ output:
     theme: spacelab
     toc: yes
     toc_float: yes
----
+---  
+
+\  
+\  
+
+![](img/git-hub.png)  
+
+\  
+\  
 
 # What is Git?
 
+
+
+\  
+\  
+
+
 # Why should I use it?
+
+1. Version Control
+2. Backup 
+3. Share
+
+
+\  
+\  
+
 
 # How can I integrate it into R-studio?
 
+\  
+\  
+
+
 ## What you need
 
++ Having git installed on your machine. If you don't, check out [this guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+\  
+\  
+
+## Getting started
+
+### Commit
+
+### Pull
+
+### Push
+
+
 # Resources
+
+## Videos
++ [Creating RStudio projects from GitHub Repositories](https://www.youtube.com/watch?v=YxZ8J2rqhEM)
++ [RStudio & Github Integration](https://www.youtube.com/watch?v=E2d91v1Twcc)
+
+## Books and Tutorials
++ [Try Git: 15 minute tutorial](https://try.github.io/levels/1/challenges/1)
++ [Happy Git with R](http://happygitwithr.com)
++ [Github with R](https://guides.github.com/activities/hello-world/)
+
+## Git GUI Clients
+
+Platforms: Windows, Mac, Linux
+
++ [SourceTree](https://www.sourcetreeapp.com)
++ [GitHub Desktop](https://desktop.github.com)
++ [Git Extensions](https://gitextensions.github.io)
++ [SmartGit](https://www.syntevo.net/smartgit/)
++ [GitKraken](https://support.gitkraken.com/start-here/guide)
+
+
+## Sites
++ [Github](https://github.com)
++ [RStudio - Version Control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
