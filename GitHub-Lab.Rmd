@@ -152,7 +152,7 @@ This is also a good way to work in teams, especially when each person is working
 
 ### Make changes online
 
-You can also edit your file directly on GitHub. This is not the best way to make big changes, but for small ones it is fine.
+You can also edit your file directly on GitHub. This is not the best way to make big changes, but for small ones it is fine. This is text I added online.
 
 <br></br>
 
