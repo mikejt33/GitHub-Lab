@@ -152,9 +152,42 @@ This is also a good way to work in teams, especially when each person is working
 
 ### Make changes online
 
-You can also edit your file directly on GitHub. This is not the best way to make big changes, but for small ones it is fine. This is text I added online.
+You can also edit your file directly on GitHub. Choose what file you want to edit. In this case, we chose the `.Rmd` file for this notebook and we clicked the edit button highlighted below.
 
-<br></br>
+<br>
+
+![](img/editonline.PNG)
+
+<br>
+
+It will bring up a text editor where you can edit your code directly. Here, we added some text to this section and commited that change to the master branch, which is the branch we have been working on.
+
+<br>
+
+![](img/editonline2.PNG)
+![](img/edtionline3.PNG)
+
+<br>
+
+Now, go back to RStudio and cick `Pull` under the `Git` tab to merge your local file with the remote one.
+
+<br>
+
+![](img/pullafterchange.PNG)
+
+<br>
+
+Voila!
+
+<br>
+
+![](img/edtionline4.PNG)
+
+<br>
+
+This is not the best way to make big changes because it is easy to run into conflicts but for small ones it's fine. 
+
+<br>
 
 # Resources
 
