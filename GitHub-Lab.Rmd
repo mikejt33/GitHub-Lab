@@ -32,15 +32,15 @@ over time so that you can recall specific versions later.
 
 1. __Version Control__
 
-Imagine you are working on a project and you make a mistake after you've been working on your code for a while. With version control, can rollback your code to a previous version that worked better.
+Imagine you are working on a project and you make a mistake after you've been working on your code for a while. With version control, you can rollback your code to a previous version that worked better.
 
 2. __Backup__ 
 
-Your versions are not only stored locally. If you lose your personal computer, you will have a backup of the files you created repositories for.
+Your versions are not only stored locally but also remotely. If you lose your personal computer, you will have a backup of the files for which you created repositories.
 
 3. __Sharing and ease of collaboration__
 
-If you need to collaborate on data analysis or code development, then everyone should use Git. Use GitHub as your clearinghouse: individuals work independently, then send work back to GitHub for reconciliation and transmission to the rest of the team.
+If you need to collaborate on data analysis or code development, then you and your team should use Git. Use GitHub as your clearinghouse: individuals work independently then send work back to GitHub for reconciliation and transmission to the rest of the team.
 
 4. __Exposure:__ 
 
