@@ -75,7 +75,8 @@ On your GitHub account, create a new repository and give it a name.
 
 2. __README:__ Text that will show up when people click your repository. This should be a description of what people can find there and instructions on how to use it, for example.
 
-3. __.gitignore files:__ .gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc. It is also good for passwords and security too. More details [here](https://git-scm.com/docs/gitignore).
+3. __.gitignore files:__ .gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc. It is also good for passwords and security too. More details
+[here](https://git-scm.com/docs/gitignore). GitHub has created a [collection](https://github.com/github/gitignore) of .gitignore files for lots and lots of different languages, which are great as a starting point or for smaller projects.
 
 4. __License:__ You do not have to use one but, for future reference, the MIT License is a good way to go. The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable. Need help picking a license? Try [this page](https://choosealicense.com).
 
@@ -111,8 +112,11 @@ For that, take a look at the options `Diff`, `Commit`, `Pull`, `Push`, `History`
 
 The [master branch](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is) should represent the 'stable' history of your code. When you want to experiment with new features, create a new branch and implement them. When they have matured enough you can merge them back to master. That way code in master will almost always build without problems.
 
-This is also a good way to work in teams, especially when each person is working on separate parts of the same file. Each person will create their own version of the file by "branching" off of the master version.  
+This is also a good way to work in teams, especially when each person is working on separate parts of the same file. Each person will create their own version of the file by "branching" off of the master version.
 
+Branch management is a whole topic unto itself. For larger projects with a long expected lifespan, there is a somewhat standard method of organization detailed well by Vincent Driessen [here](http://nvie.com/posts/a-successful-git-branching-model/).
+
+![Credit Arco123 on Reddit](img/branch_spaghetti.png)
 
 <br>
 
@@ -120,13 +124,13 @@ This is also a good way to work in teams, especially when each person is working
 
 [`commit`](https://git-scm.com/docs/git-commit) records changes to the repository. You choose the files where you made changes and add a message describing those changes. You do not have to add a message, but you will thank yourself later. 
 
-![](img/commit.PNG)
+![Credit Randall Munroe](img/xkcd_commits.png)
 
 <br>
 
 #### Diff {-}
 
-[`diff`](https://git-scm.com/docs/git-diff) shows changes between commits, commit and working tree, or changes between two files on disk, etc. 
+[`diff`](https://git-scm.com/docs/git-diff) shows changes between commits, commit and working tree, or changes between two files on disk, etc.
 
 
 <br>
