@@ -124,9 +124,13 @@ for commit messages allows git/GitHub to show the shorter message attached to ea
 
 1. __Commit the changes you made earlier. Use a good message that explains what you changed.__
 
-##### When should I commit changes {-}
+##### When should I commit changes? {-}
 
 Good question. Essentially, as often as makes sense. In theory, each commit should be one functional change (ie. it's somewhat bad form for a commit message to be "Adds plots and improves efficiency and removes remote file sharing and..."). This allows one to step through changes in a fine-grained fashion to identify and solve issues later down the line, while large changes make this much more difficult and actually work against the point of using Git.
+
+##### What if I make a mistake? {-}
+
+Well, you're in luck. If you commit something but realise there's a typo, or you didn't include a file, you can stage those changes and amend the previous commit---as long as you didn't push the changes. If you did, you'll need to break out the command line to amend them, so it's probably easier to just create a new commmit.
 
 #### Pull {-}
 
