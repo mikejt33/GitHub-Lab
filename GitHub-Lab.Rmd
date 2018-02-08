@@ -3,6 +3,8 @@ title: "GitHub Lab"
 author: "Mackenzie Gray, Adriana Souza"
 date: "February 8th, 2018"
 output:
+  html_document:
+    toc: yes
   html_notebook:
     highlight: tango
     mathjax: null
@@ -10,6 +12,8 @@ output:
     theme: spacelab
     toc: yes
     toc_float: yes
+  pdf_document:
+    toc: yes
 ---  
 
 ![](img/git-hub.png)
@@ -229,3 +233,5 @@ Platforms: Windows, Mac, Linux
 ## Sites
 + [Github](https://github.com)
 + [RStudio - Version Control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+
+Here is a change I made -Joe
