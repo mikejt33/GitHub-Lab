@@ -98,6 +98,8 @@ Git keeps track of changes to tracked files in the background. These changes mus
 
 1. __Edit this file and stage the changes, but do not commit your changes.__
 
+Ha ha, you nerds, I just made a merge conflict. Good luck.
+
 #### Diff {-}
 
 [`diff`](https://git-scm.com/docs/git-diff) shows changes between commits, commit and working tree, or changes between two files on disk, etc. This allows for a fine-grained approach to stage or unstage specific changes by chunk or line.
