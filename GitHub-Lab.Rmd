@@ -3,6 +3,9 @@ title: "GitHub Lab"
 author: "Mackenzie Gray, Adriana Souza"
 date: "February 8th, 2018"
 output:
+  html_document:
+    df_print: paged
+    toc: yes
   html_notebook:
     highlight: tango
     mathjax: null
